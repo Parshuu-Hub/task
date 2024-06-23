@@ -1,0 +1,24 @@
+#display-container{
+    position:fixed;
+    top: 40px;
+    left: 120px;
+    display: none;
+}
+
+.item{
+    cursor: pointer ;
+}
+
+.item:hover{
+    text-decoration: underline;
+    text-underline-offset: inherit;
+}
+
+img{
+    height: 50px;
+    width: 50px;
+}
+
+.img{
+    display: none;
+}
